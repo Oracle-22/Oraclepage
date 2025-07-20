@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bb3d3d;
+    text-align: justify;
+}
+
+header {
+    background-color: #000;
+    padding: 10px 0;
+    text-align: justify;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    padding: 8px 12px;
+    display: inline-block;
+    background-color: #900;
+    border-radius: 5px;
+}
+
+.menu li a:hover {
+    background-color: #c00;
+    transform: scale(1.1);
+}
+
+main {
+    padding: 20px;
+    margin: 0 40px;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+footer {
+    text-align: center;
+    padding: 0px;
+    background-color: #000;
+    color: white;
+    width: 100%;
+    bottom: 10;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+#an{
+       float: right;
+    width: 150px;
+    margin-right: 20px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+
+}
+#an img {
+    display: block;
+    margin: 10px auto;
+}
+.anu{
+    text-align: justify;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap:wrap; 
+    
+}
+.anun{
+    display: flex;
+    justify-content: left;
+    gap: 1px;
+    margin: 200px 0;
+}
+.img-anuncio{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.c-f{
+    display: flex;
+    gap: 30px;
+}
+.t-o{
+    width: 70%;
+    margin-left: 20px;
+}
+video{
+    align-items: center;
+}
+.img {
+    display: block;
+    margin: 20px auto;
+    max-width: 40%;
+    height: auto;
+}
+figcaption{
+    text-align: center;
+}
